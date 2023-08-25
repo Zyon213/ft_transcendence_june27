@@ -2,26 +2,24 @@
   <aside class="side-nav-bar">
     <ul class="side-nav-links">
       <li>
-        <router-link to="/"
-          ><img src="@/assets/leader.svg" alt="Home" /></router-link
-        >
-      </li>
-      <li>
-        <router-link to="/about"
-          ><img src="@/assets/friends.svg" alt="About" /></router-link
-        >
-      </li>
-      <li>
-        <router-link to="/services"
-          ><img src="@/assets/game.svg" alt="Services" />
-          </router-link
-        >
-      </li>
-      <li>
-        <router-link to="/contact"
+        <router-link to="/chat"
           ><img src="@/assets/chat.svg" alt="Contact" />
-          </router-link
-        >
+        </router-link>
+      </li>
+      <li>
+        <router-link to="/game"
+          ><img src="@/assets/game.svg" alt="Services" />
+        </router-link>
+      </li>
+      <li>
+        <router-link to="/leaderboard"
+          ><img src="@/assets/leader.svg" alt="Home"
+        /></router-link>
+      </li>
+      <li>
+        <router-link to="/friends"
+          ><img src="@/assets/friends.svg" alt="About"
+        /></router-link>
       </li>
     </ul>
   </aside>
@@ -29,7 +27,7 @@
 
 <style scoped>
 .side-nav-bar {
-  background-color: #34373D;
+  background-color: #34373d;
   color: #fff;
   width: 70px;
   height: 100vh;

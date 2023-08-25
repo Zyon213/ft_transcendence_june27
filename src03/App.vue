@@ -1,21 +1,17 @@
 <template>
   <div id="app">
-    <TopNavBar />
-    <div class="main-container">
-      <SideNavBar />
-      <router-view />
-    </div>
+    <HomePage />
   </div>
+  <router-view />
 </template>
 
 <script>
-import TopNavBar from "./components/TopNavBar.vue";
-import SideNavBar from "./components/SideNavBar.vue";
+import HomePage from "./views/Home-Page.vue";
+
 export default {
   name: "App",
   components: {
-    TopNavBar,
-    SideNavBar,
+    HomePage,
   },
 };
 </script>
